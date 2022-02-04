@@ -285,7 +285,8 @@ def cdf(x):
     c=1-math.e**(-a*x)
     return c
 
-print("(a)")
+#3(i)
+print("(i)")
 X=range(500)
 Y=[pdf(x) for x in X]
 
@@ -294,10 +295,16 @@ plt.xlabel('Time(Hrs)')
 plt.ylabel('PDF')
 plt.show()
 
-print('(b)    P(Wait time<=1min) = ',cdf(1/60))
-print('(c)    P(1min<Wait time<=2min) = ', cdf(2/60)-cdf(1/60))
-print('(d)    P(Wait time>2 min) = ', 1-cdf(2/60))
+#3(ii)
+print('(ii)    P(Wait time<=1min) = ',cdf(1/60))
 
+#3(iii)
+print('(iii)    P(1min<Wait time<=2min) = ', cdf(2/60)-cdf(1/60))
+
+#3(iv)
+print('(iv)    P(Wait time>2 min) = ', 1-cdf(2/60))
+
+#3(v)
 a*=0.5
-print('(e)    P(1min<Wait time=<2min) = ', cdf(2/60)-cdf(1/60))
+print('(v)    P(1min<Wait time=<2min) = ', cdf(2/60)-cdf(1/60))
 
