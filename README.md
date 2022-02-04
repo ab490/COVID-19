@@ -12,3 +12,10 @@ Calculate the mean incubation period and the variance of the distribution. \
 (ii) Calculated the expected incubation period by including and excluding Wuhan residents and compared the values. Then calculated the expected incubation period for surviving and deceased patients. \
 (iii) Calculated the pmfs of the onset to hospitalization (H − O) for dead patients, onset to death (X − O) and hospitalization to death (X − H). Also, compared the H − O pmf for surviving and dead patients.
 
+3. The exponential distribution is ideal to model waiting times. In this problem, I have used the exponential distribution to model time to the arrival of the next confirmed case of Covid-19 in India. Based upon data of confirmed cases from the source www.covid19india.org, between 17th April 2020 and 23rd April 2020, there were on average 1373 confirmed cases per day, i.e., on average around 57 cases per hour. I have written a python code to do the following:\
+(i) Plotted the probability density function of the wait time for the next Covid-19 confirmed case.\
+(ii) Found the probability of the wait time for the next Covid-19 confirmed case to be less than or equal to 1 minute.\
+(iii) Found the probability of the wait time for the next Covid-19 confirmed case to be between 1 minute and 2 minutes.\
+(iv) Found the probability of the wait time for the next Covid-19 confirmed case to be more than 2 minutes.\
+(v) Supposing the average number of cases per hour doubled, found the probability of wait time for the next Covid-19 confirmed case to be between 1 minute and 2 minutes.
+
